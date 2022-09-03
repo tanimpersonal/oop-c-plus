@@ -210,6 +210,40 @@ build private-access.exe: CXX_EXECUTABLE_LINKER__private-access_Debug CMakeFiles
   TARGET_IMPLIB = libprivate-access.dll.a
   TARGET_PDB = private-access.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target password
+
+
+#############################################
+# Order-only phony target for password
+
+build cmake_object_order_depends_target_password: phony || CMakeFiles/password.dir
+
+build CMakeFiles/password.dir/password.cpp.obj: CXX_COMPILER__password_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/oop-c-plus/password.cpp || cmake_object_order_depends_target_password
+  DEP_FILE = CMakeFiles\password.dir\password.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/."
+  OBJECT_DIR = CMakeFiles\password.dir
+  OBJECT_FILE_DIR = CMakeFiles\password.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target password
+
+
+#############################################
+# Link the executable password.exe
+
+build password.exe: CXX_EXECUTABLE_LINKER__password_Debug CMakeFiles/password.dir/password.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\password.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = password.exe
+  TARGET_IMPLIB = libpassword.dll.a
+  TARGET_PDB = password.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -244,6 +278,8 @@ build encapsulation: phony encapsulation.exe
 
 build oop_c_plus: phony oop_c_plus.exe
 
+build password: phony password.exe
+
 build private-access: phony private-access.exe
 
 # =============================================================================
@@ -254,7 +290,7 @@ build private-access: phony private-access.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug
 
-build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe constructor.exe private-access.exe
+build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe constructor.exe private-access.exe password.exe
 
 # =============================================================================
 # Built-in targets

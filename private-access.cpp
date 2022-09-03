@@ -15,7 +15,7 @@ public:
 };
 int main(){
     Roll name;
-    //call the setter to assign value to private roll
+    //call the setter to assign value to private roll.
     name.setter(20);
     cout << name.getter();
 }
