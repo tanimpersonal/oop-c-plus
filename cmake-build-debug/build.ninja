@@ -142,6 +142,40 @@ build encapsulation.exe: CXX_EXECUTABLE_LINKER__encapsulation_Debug CMakeFiles/e
   TARGET_IMPLIB = libencapsulation.dll.a
   TARGET_PDB = encapsulation.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target constructor
+
+
+#############################################
+# Order-only phony target for constructor
+
+build cmake_object_order_depends_target_constructor: phony || CMakeFiles/constructor.dir
+
+build CMakeFiles/constructor.dir/constructor.cpp.obj: CXX_COMPILER__constructor_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/oop-c-plus/constructor.cpp || cmake_object_order_depends_target_constructor
+  DEP_FILE = CMakeFiles\constructor.dir\constructor.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/."
+  OBJECT_DIR = CMakeFiles\constructor.dir
+  OBJECT_FILE_DIR = CMakeFiles\constructor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target constructor
+
+
+#############################################
+# Link the executable constructor.exe
+
+build constructor.exe: CXX_EXECUTABLE_LINKER__constructor_Debug CMakeFiles/constructor.dir/constructor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\constructor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = constructor.exe
+  TARGET_IMPLIB = libconstructor.dll.a
+  TARGET_PDB = constructor.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -170,6 +204,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build class-basic: phony class-basic.exe
 
+build constructor: phony constructor.exe
+
 build encapsulation: phony encapsulation.exe
 
 build oop_c_plus: phony oop_c_plus.exe
@@ -182,7 +218,7 @@ build oop_c_plus: phony oop_c_plus.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug
 
-build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe
+build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe constructor.exe
 
 # =============================================================================
 # Built-in targets

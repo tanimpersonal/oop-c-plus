@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "class-basic::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-class-basic-Debug-f28e8864b0d8e0ae1338.json",
 					"name" : "class-basic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "constructor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-constructor-Debug-928e377cad1092b69977.json",
+					"name" : "constructor",
 					"projectIndex" : 0
 				},
 				{

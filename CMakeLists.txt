@@ -10,3 +10,4 @@ add_executable(oop_c_plus
 
 add_executable(class-basic class-basic.cpp)
 add_executable(encapsulation encapsulation.cpp)
+add_executable(constructor constructor.cpp)
