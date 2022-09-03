@@ -176,6 +176,40 @@ build constructor.exe: CXX_EXECUTABLE_LINKER__constructor_Debug CMakeFiles/const
   TARGET_IMPLIB = libconstructor.dll.a
   TARGET_PDB = constructor.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target private-access
+
+
+#############################################
+# Order-only phony target for private-access
+
+build cmake_object_order_depends_target_private-access: phony || CMakeFiles/private-access.dir
+
+build CMakeFiles/private-access.dir/private-access.cpp.obj: CXX_COMPILER__private-access_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/oop-c-plus/private-access.cpp || cmake_object_order_depends_target_private-access
+  DEP_FILE = CMakeFiles\private-access.dir\private-access.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/."
+  OBJECT_DIR = CMakeFiles\private-access.dir
+  OBJECT_FILE_DIR = CMakeFiles\private-access.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target private-access
+
+
+#############################################
+# Link the executable private-access.exe
+
+build private-access.exe: CXX_EXECUTABLE_LINKER__private-access_Debug CMakeFiles/private-access.dir/private-access.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\private-access.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = private-access.exe
+  TARGET_IMPLIB = libprivate-access.dll.a
+  TARGET_PDB = private-access.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -210,6 +244,8 @@ build encapsulation: phony encapsulation.exe
 
 build oop_c_plus: phony oop_c_plus.exe
 
+build private-access: phony private-access.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -218,7 +254,7 @@ build oop_c_plus: phony oop_c_plus.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug
 
-build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe constructor.exe
+build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe constructor.exe private-access.exe
 
 # =============================================================================
 # Built-in targets
