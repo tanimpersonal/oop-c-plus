@@ -1,5 +1,11 @@
 # ninja log v5
-1	2556	6839370853633884	CMakeFiles/oop_c_plus.dir/class-basic.cpp.obj	b2110d57f6fae223
-2559	2752	6839370855560618	oop_c_plus.exe	806ebd64118ab75f
 3	1367	6839370952363052	CMakeFiles/oop_c_plus.dir/class-basic.cpp.obj	b2110d57f6fae223
 1367	1559	6839370954253941	oop_c_plus.exe	806ebd64118ab75f
+1	1606	6839374941172298	CMakeFiles/encapsulation.dir/encapsulation.cpp.obj	378ee5490466fa34
+1606	1715	6839374942229455	encapsulation.exe	cff9bd7f80fc032e
+4	1352	6839375129117737	CMakeFiles/encapsulation.dir/encapsulation.cpp.obj	378ee5490466fa34
+1352	1454	6839375130105101	encapsulation.exe	cff9bd7f80fc032e
+4	1338	6839375327197695	CMakeFiles/encapsulation.dir/encapsulation.cpp.obj	378ee5490466fa34
+1338	1444	6839375328224546	encapsulation.exe	cff9bd7f80fc032e
+5	2613	6839383174398969	CMakeFiles/encapsulation.dir/encapsulation.cpp.obj	378ee5490466fa34
+2614	2786	6839383176074471	encapsulation.exe	cff9bd7f80fc032e

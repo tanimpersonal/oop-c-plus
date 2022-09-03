@@ -1,3 +1,5 @@
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/oop_c_plus.dir
+D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/class-basic.dir
+D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/encapsulation.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

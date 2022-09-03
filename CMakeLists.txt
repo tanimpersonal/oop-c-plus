@@ -7,3 +7,6 @@ include_directories(.)
 
 add_executable(oop_c_plus
         class-basic.cpp)
+
+add_executable(class-basic class-basic.cpp)
+add_executable(encapsulation encapsulation.cpp)
