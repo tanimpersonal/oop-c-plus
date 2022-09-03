@@ -1,0 +1,3 @@
+1. struct can not contain behaviour, methods, but class can.
+2. struct data are always public. class data can be modified.
+public anyone, private only me, protected => selected
