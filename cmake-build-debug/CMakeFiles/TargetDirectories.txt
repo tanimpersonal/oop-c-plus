@@ -4,5 +4,7 @@ D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFile
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/constructor.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/private-access.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/password.dir
+D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/inheritence.dir
+D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/polymorphism.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

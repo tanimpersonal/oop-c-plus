@@ -244,6 +244,74 @@ build password.exe: CXX_EXECUTABLE_LINKER__password_Debug CMakeFiles/password.di
   TARGET_IMPLIB = libpassword.dll.a
   TARGET_PDB = password.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target inheritence
+
+
+#############################################
+# Order-only phony target for inheritence
+
+build cmake_object_order_depends_target_inheritence: phony || CMakeFiles/inheritence.dir
+
+build CMakeFiles/inheritence.dir/inheritence.cpp.obj: CXX_COMPILER__inheritence_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/oop-c-plus/inheritence.cpp || cmake_object_order_depends_target_inheritence
+  DEP_FILE = CMakeFiles\inheritence.dir\inheritence.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/."
+  OBJECT_DIR = CMakeFiles\inheritence.dir
+  OBJECT_FILE_DIR = CMakeFiles\inheritence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target inheritence
+
+
+#############################################
+# Link the executable inheritence.exe
+
+build inheritence.exe: CXX_EXECUTABLE_LINKER__inheritence_Debug CMakeFiles/inheritence.dir/inheritence.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\inheritence.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = inheritence.exe
+  TARGET_IMPLIB = libinheritence.dll.a
+  TARGET_PDB = inheritence.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target polymorphism
+
+
+#############################################
+# Order-only phony target for polymorphism
+
+build cmake_object_order_depends_target_polymorphism: phony || CMakeFiles/polymorphism.dir
+
+build CMakeFiles/polymorphism.dir/polymorphism.cpp.obj: CXX_COMPILER__polymorphism_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/oop-c-plus/polymorphism.cpp || cmake_object_order_depends_target_polymorphism
+  DEP_FILE = CMakeFiles\polymorphism.dir\polymorphism.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/."
+  OBJECT_DIR = CMakeFiles\polymorphism.dir
+  OBJECT_FILE_DIR = CMakeFiles\polymorphism.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target polymorphism
+
+
+#############################################
+# Link the executable polymorphism.exe
+
+build polymorphism.exe: CXX_EXECUTABLE_LINKER__polymorphism_Debug CMakeFiles/polymorphism.dir/polymorphism.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\polymorphism.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = polymorphism.exe
+  TARGET_IMPLIB = libpolymorphism.dll.a
+  TARGET_PDB = polymorphism.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,9 +344,13 @@ build constructor: phony constructor.exe
 
 build encapsulation: phony encapsulation.exe
 
+build inheritence: phony inheritence.exe
+
 build oop_c_plus: phony oop_c_plus.exe
 
 build password: phony password.exe
+
+build polymorphism: phony polymorphism.exe
 
 build private-access: phony private-access.exe
 
@@ -290,7 +362,7 @@ build private-access: phony private-access.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/oop-c-plus/cmake-build-debug
 
-build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe constructor.exe private-access.exe password.exe
+build all: phony oop_c_plus.exe class-basic.exe encapsulation.exe constructor.exe private-access.exe password.exe inheritence.exe polymorphism.exe
 
 # =============================================================================
 # Built-in targets
